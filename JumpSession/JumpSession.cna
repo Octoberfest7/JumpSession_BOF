@@ -67,7 +67,7 @@ Command: JumpSession
 Summary: This command spawns a new process in a different session and then injects shellcode to create a new beacon.
          WARNING! You are accessing process tokens and spawning processes and injecting shellcode, ensure you know what you are doing!
          CANNOT PPID spoof PPL processes.
-Usage:   JumpSession <SESSION PID> <PARENT PID> <SHELLCODE>
+Usage:   JumpSession <SESSION PID> <PARENT PID>
          SESSION PID        Required. The PID of the process whose session you wish to
                                       Duplicate and spawn a new process under.
                                       Session 0: recommend smss
