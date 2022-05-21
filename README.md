@@ -1,5 +1,5 @@
 # JumpSession_BOF
-This is a Beacon Object File allowing creation of Beacons in different sessions. 
+This is a Beacon Object File allowing creation of Beacons in different sessions. Must be Elevated.
 
 ![](JumpSession.gif)
 
