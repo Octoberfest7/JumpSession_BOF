@@ -28,3 +28,7 @@ x86_64-w64-mingw32-gcc -o JumpSession.x64.o -Os -c main.c -DBOF
 ```
 i686-w64-mingw32-gcc -o JumpSession.x86.o -Os -c main.c -DBOF
 ```
+
+## Credit
+
+Thanks to TrustedSec for their [CS-Remote-OPs-Bof](https://github.com/trustedsec/CS-Remote-OPs-BOF) repo, from which I stole the .cna script as a template for this one along with some assorted WINAPI prototypes for bofdefs.h.
