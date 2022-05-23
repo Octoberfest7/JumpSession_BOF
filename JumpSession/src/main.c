@@ -125,12 +125,12 @@ int go(IN PCHAR Buffer, IN ULONG Length)
     //Update struct with attribute list
     six.lpAttributeList = pAttrList;
 
-    //Logic to determine where to spawn WerFault from based on Excel and System architecture
+    //Logic to determine where to spawn WerFault from based on Process and System architecture
     char program1[100];
     char homedir[] = "c:\\Windows\\System32";
 
-	SYSTEM_INFO systemInfo;
-	GetNativeSystemInfo(&systemInfo);
+    SYSTEM_INFO systemInfo;
+    GetNativeSystemInfo(&systemInfo);
     //If we are on x86 machine we will call werfault from system32
     if(systemInfo.wProcessorArchitecture == 0)
     {
